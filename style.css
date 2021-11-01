@@ -700,7 +700,7 @@ margin: 100px 0 0 100px;
 color: #000000;
 }
 
-@media (max-width: 370px){
+@media (max-width: 380px){
     #ferst__block {
         margin: 0 auto;
     100%;
@@ -721,34 +721,107 @@ color: #000000;
     .flex_row__name {
         font-size: 50px;
         display: auto;
+        
+    }
+    .main__flex_column_text {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 60px;
     }
     .flex_row__info {
         font-size: 20px;
-        display: flex;
+        margin: -50px 0 0;
+        width: 100%;
         justify-content: center;
         text-align: center;
     }
     .discount{
-        width: 80%;
+        width: 100%;
+        font-size: 20px;
+        height: 150px;
     }
+    .discount_flex {
+    margin-top: 30px;
+    display: flex;
+    grid-gap: 10px;
+    }   
+    .eleventext {
+    font-size: 32px;
+    line-height: 19px;
+    color: #FF8E8E;
+    }
+    /*ВТОРОЙ БЛОК*/
+    #second__block {
+        margin-top: 100px;
+        margin: 0 auto;
+        width: 86%;
+    }
+    
     .twoblock__setting_blocks1{
-        margin: 30px auto 0;
+        margin: 50px auto 0;
+        font-size: 20px;
+        height: 90px;
     }
     .twoblock__setting_blocks2{
         margin: 30px auto 0;
+        font-size: 20px;
+        height: 90px;
     }
     .twoblock__setting_blocks3{
         margin: 30px auto 0;
+        font-size: 20px;
+        height: 90px;
     }
     
+    /*ТРЕТИЙ БЛОК*/
+    #fird__block {
+    
+        margin: 50px auto;
+}
+    .head__name {
+font-size: 56px;
+}
     .product__block {
         margin: 60px auto 0;
+            width: 310px;
+        height: 310px;
     }
-    
+    .flex__catalog {
+    margin-top: 0px;
+}
+    .foneimg {
+    margin: -30px auto 0px;
+    width: 220px;
+height: 220px;
+    }
+    .product__name{
+        font-size: 30px;
+    }
+    .product__cost{
+        margin-top: -10px;
+        font-size: 20px;
+    }
+    .button_buy {
+    transition: 0.4s;
+width: 137px;
+height: 36px;
+font-size: 20px;
+line-height: 35px;
+margin: 20px 20px 0 0;
+}
+    .catalog__heart {
+width: 80px;
+height: 30px;
+line-height: 35px;
+    font-size: 33px;
+}
     .infodeleviry {
         margin: 0 auto 40px;
         text-align: center;
     }
+    .product__info_buy_flex {
+    margin-top: -10px;
+}
     .product__info_buy_flex_del {
         display: inline-flex;
         margin: 0 auto 0;
