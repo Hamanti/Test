@@ -700,7 +700,7 @@ margin: 100px 0 0 100px;
 color: #000000;
 }
 
-@media (max-width: 360px){
+@media (max-width: 370px){
     #ferst__block {
         margin: 0 auto;
     100%;
@@ -709,13 +709,18 @@ color: #000000;
       display: none;
     }
     
+    .main__flex_row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+    
     .main__flex_column_img{
         display: none;
     }
     .flex_row__name {
         font-size: 50px;
-        text-align: center;
-        width: auto;
+        display: auto;
     }
     .flex_row__info {
         font-size: 20px;
